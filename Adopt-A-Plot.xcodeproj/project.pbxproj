@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9542E73521B05B6600C6DA45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542E73421B05B6600C6DA45 /* SecondViewController.swift */; };
+		9542E73921B1F15400C6DA45 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542E73821B1F15400C6DA45 /* PageViewController.swift */; };
+		954C99F421B3976C009415BA /* createView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C99F321B3976C009415BA /* createView.swift */; };
+		95568FB521B233C9003D0913 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95568FB421B233C9003D0913 /* StarterView.swift */; };
+		95568FBB21B2474B003D0913 /* MorePlots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95568FBA21B2474B003D0913 /* MorePlots.swift */; };
+		95568FBD21B2D0B0003D0913 /* ViewFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95568FBC21B2D0B0003D0913 /* ViewFour.swift */; };
+		95690A41218E5BA500DDB039 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95690A40218E5BA500DDB039 /* Border.swift */; };
 		95F57458218D0BB700E7FF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F57457218D0BB700E7FF61 /* AppDelegate.swift */; };
 		95F5745A218D0BB700E7FF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F57459218D0BB700E7FF61 /* ViewController.swift */; };
 		95F5745D218D0BB700E7FF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F5745B218D0BB700E7FF61 /* Main.storyboard */; };
@@ -14,6 +21,8 @@
 		95F57462218D0BBA00E7FF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F57460218D0BBA00E7FF61 /* LaunchScreen.storyboard */; };
 		95F5746D218D0BBA00E7FF61 /* Adopt_A_PlotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5746C218D0BBA00E7FF61 /* Adopt_A_PlotTests.swift */; };
 		95F57478218D0BBB00E7FF61 /* Adopt_A_PlotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F57477218D0BBB00E7FF61 /* Adopt_A_PlotUITests.swift */; };
+		95F574DA218E041B00E7FF61 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F574D9218E041B00E7FF61 /* data.plist */; };
+		95F574DC218E2E6600E7FF61 /* Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F574DB218E2E6600E7FF61 /* Getter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9542E73421B05B6600C6DA45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9542E73821B1F15400C6DA45 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		954C99F321B3976C009415BA /* createView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createView.swift; sourceTree = "<group>"; };
+		9555B92D21E6B4F700442354 /* Adopt-A-Plot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Adopt-A-Plot.entitlements"; sourceTree = "<group>"; };
+		95568FB421B233C9003D0913 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		95568FBA21B2474B003D0913 /* MorePlots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorePlots.swift; sourceTree = "<group>"; };
+		95568FBC21B2D0B0003D0913 /* ViewFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewFour.swift; path = ../ViewFour.swift; sourceTree = "<group>"; };
+		95690A40218E5BA500DDB039 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 		95F57454218D0BB700E7FF61 /* Adopt-A-Plot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adopt-A-Plot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F57457218D0BB700E7FF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F57459218D0BB700E7FF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,8 @@
 		95F57473218D0BBA00E7FF61 /* Adopt-A-PlotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adopt-A-PlotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F57477218D0BBB00E7FF61 /* Adopt_A_PlotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adopt_A_PlotUITests.swift; sourceTree = "<group>"; };
 		95F57479218D0BBB00E7FF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F574D9218E041B00E7FF61 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		95F574DB218E2E6600E7FF61 /* Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9555B92A21E6B3E500442354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95F5744B218D0BB600E7FF61 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,7 @@
 				95F5746B218D0BBA00E7FF61 /* Adopt-A-PlotTests */,
 				95F57476218D0BBA00E7FF61 /* Adopt-A-PlotUITests */,
 				95F57455218D0BB700E7FF61 /* Products */,
+				9555B92A21E6B3E500442354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +124,21 @@
 		95F57456218D0BB700E7FF61 /* Adopt-A-Plot */ = {
 			isa = PBXGroup;
 			children = (
+				9555B92D21E6B4F700442354 /* Adopt-A-Plot.entitlements */,
+				954C99F321B3976C009415BA /* createView.swift */,
+				95568FBC21B2D0B0003D0913 /* ViewFour.swift */,
 				95F57457218D0BB700E7FF61 /* AppDelegate.swift */,
 				95F57459218D0BB700E7FF61 /* ViewController.swift */,
+				95F574DB218E2E6600E7FF61 /* Getter.swift */,
+				95690A40218E5BA500DDB039 /* Border.swift */,
+				9542E73421B05B6600C6DA45 /* SecondViewController.swift */,
 				95F5745B218D0BB700E7FF61 /* Main.storyboard */,
+				95568FB421B233C9003D0913 /* StarterView.swift */,
+				95568FBA21B2474B003D0913 /* MorePlots.swift */,
+				9542E73821B1F15400C6DA45 /* PageViewController.swift */,
 				95F5745E218D0BBA00E7FF61 /* Assets.xcassets */,
 				95F57460218D0BBA00E7FF61 /* LaunchScreen.storyboard */,
+				95F574D9218E041B00E7FF61 /* data.plist */,
 				95F57463218D0BBA00E7FF61 /* Info.plist */,
 			);
 			path = "Adopt-A-Plot";
@@ -193,6 +230,83 @@
 				TargetAttributes = {
 					95F57453218D0BB600E7FF61 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.ClassKit = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Multipath = {
+								enabled = 0;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 0;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					95F57467218D0BBA00E7FF61 = {
 						CreatedOnToolsVersion = 10.1;
@@ -231,6 +345,7 @@
 			files = (
 				95F57462218D0BBA00E7FF61 /* LaunchScreen.storyboard in Resources */,
 				95F5745F218D0BBA00E7FF61 /* Assets.xcassets in Resources */,
+				95F574DA218E041B00E7FF61 /* data.plist in Resources */,
 				95F5745D218D0BB700E7FF61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +372,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F5745A218D0BB700E7FF61 /* ViewController.swift in Sources */,
+				95568FBD21B2D0B0003D0913 /* ViewFour.swift in Sources */,
+				9542E73921B1F15400C6DA45 /* PageViewController.swift in Sources */,
+				95568FB521B233C9003D0913 /* StarterView.swift in Sources */,
+				954C99F421B3976C009415BA /* createView.swift in Sources */,
+				95690A41218E5BA500DDB039 /* Border.swift in Sources */,
+				95F574DC218E2E6600E7FF61 /* Getter.swift in Sources */,
+				9542E73521B05B6600C6DA45 /* SecondViewController.swift in Sources */,
 				95F57458218D0BB700E7FF61 /* AppDelegate.swift in Sources */,
+				95568FBB21B2474B003D0913 /* MorePlots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +555,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7Z7XSQ4FH;
 				INFOPLIST_FILE = "Adopt-A-Plot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.Adopt-A-Plot";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bay-Ridge-Civic-Association.Adopt-A-Plot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,16 +575,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7Z7XSQ4FH;
 				INFOPLIST_FILE = "Adopt-A-Plot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.Adopt-A-Plot";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bay-Ridge-Civic-Association.Adopt-A-Plot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
